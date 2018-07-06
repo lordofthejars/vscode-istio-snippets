@@ -1,0 +1,21 @@
+{
+    "name": "vscode-istio-snippets",
+    "displayName": "vscode-istio-snippets",
+    "description": "Istio snippets",
+    "version": "0.0.1",
+    "publisher": "lordofthejars",
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "yaml",
+                "path": "./snippets/yaml.json"
+            }
+        ]
+    }
+}
